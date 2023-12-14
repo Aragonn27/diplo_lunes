@@ -1,0 +1,26 @@
+body {
+    background-color:  #aed6f1  ;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #cb4335;
+}
+
+h2 {
+    color:   #cb4335  ;
+    font-size: 25px;
+}
+
+h3 {
+    color:   #76448a  ;
+}
+
+.cursiva {
+    font-style: oblique;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
