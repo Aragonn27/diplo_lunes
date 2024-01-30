@@ -1,0 +1,156 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: 25px;
+   
+   }
+ 
+
+   .contenedor {
+    width: 600px;
+    height: auto;
+    border: 1px solid;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    
+    
+   }
+
+   .rojo {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    background-color: red;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    left: 500px;
+    
+    
+    
+   }
+
+   .azul {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    background-color: blue;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    left: 500px;
+    
+   }
+
+   .verde {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    background-color: green;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    left: 500px;
+    
+   }
+/*Ejercicio 2*/
+   .contenedor2 {
+    width: auto;
+    height: 300px;
+    border: 1px solid;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+   
+   }
+
+   .rojo1 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   }
+
+   .azul1 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   
+   }
+
+   .verde1 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+   }
+.contenedor3 {
+   width: 800px;
+    height: auto;
+    border: 1px solid;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    display: inline-flex;
+    justify-content: space-between;
+}
+   
+.rojo2 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   }
+
+   .azul2 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   
+   }
+
+   .verde2 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   }
