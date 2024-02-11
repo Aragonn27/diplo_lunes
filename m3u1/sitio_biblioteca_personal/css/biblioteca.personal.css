@@ -251,3 +251,5 @@ h2{
 .generos:nth-child(even){
     flex-direction: row-reverse;
 }
+
+/*Fin Sección Géneros*/
