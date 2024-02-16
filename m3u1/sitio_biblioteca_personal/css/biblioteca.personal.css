@@ -171,6 +171,10 @@ h2{
     font-size: 12px;
 }
 
+.staff {
+    font-size: 12px;
+}
+
 .personas{
     display: flex;
     justify-content: space-between;
@@ -253,3 +257,160 @@ h2{
 }
 
 /*Fin Sección Géneros*/
+
+
+/*Inicio Sección Galería*/
+.galerias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.galeria{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+.galeria img{
+    border-radius: 1%;
+    max-width: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.galeria h5,
+.galeria h6 {
+    margin: 0;
+    font-weight: normal;
+    color: #2e64a1;
+}
+
+.galeria h5{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/*Fin Sección Galería*/
+
+
+
+/*Inicio Novedades*/
+
+.novedades{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.novedades h3{
+    color: #2e64a1;
+    font-weight: 550;
+    font-style: italic;
+    border-bottom: 1px solid #2e64a1;
+    padding-bottom: 10px;
+}
+
+.novedades h4{
+    color: #2e64a1;
+    font-weight: 400;
+    font-style: italic;
+    border-bottom: 1px solid #2e64a1;
+    padding-bottom: 10px;
+}
+
+.novedades p{
+    font-size: 13px;
+    line-height: 19px;
+}
+/*Fin Novedades*/
+
+
+
+/*Inicio Contacto*/
+
+.contacto {
+    display: flex;
+    gap: 24px;
+}
+
+.contacto div{
+    width: 100%;
+}
+
+.datos p{
+    font-size: 14px;
+}
+
+.datos ul li{
+    font-size: 13px;
+}
+
+.formulario p{
+    display: flex;
+}
+
+.formulario p label{
+    min-width: 80px;
+}
+
+.formulario p input,
+.formulario p textarea{
+    width: 100%;
+    background: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+.formulario p label{
+    display: flex;
+    align-items: center;
+}
+
+.formulario p:nth-child(4) {
+    align-items: start;
+}
+
+.formulario textarea{
+    resize: none;
+    height: 150px;
+}
+
+.formulario input[type="submit"] {
+    background: #6da9ed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #2e54a1;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Fin Contacto*/
+
+
+
