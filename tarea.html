@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>tarea1</title>
+</head>
+<body>
+    <script>
+        
+		const distancia = parseInt(prompt('Ingrese velocidad:', ''));
+		// const num2 = parseInt(prompt('Ingrese segundo número:', ''));
+		// const num3 = parseInt(prompt('Ingrese tercer número:', ''));
+
+	    if (distancia >= 0 && distancia <= 1000) {
+        return "pie";
+    } else if (distancia > 1000 && distancia <= 10000) {
+        return "bicicleta";
+    } else if (distancia > 10000 && distancia <= 30000) {
+        return "colectivo";
+    } else if (distancia > 30000 && distancia <= 100000) {
+        return "auto";
+    } else {
+        return "avión";
+    }
+    </script>
+
+
+
+
+
+<script type="text/javascript" src="/codigo.js"></script>
+    
+</body>
+</html>
