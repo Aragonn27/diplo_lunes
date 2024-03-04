@@ -1,7 +1,10 @@
 import React from "react";
 const Footer = (props) => {
     return (
-        <div>Footer</div>
+        <div>Footer
+                    <p>Derechos Reservados. Transporte X 2024</p>
+
+        </div>
     );
 }
 
